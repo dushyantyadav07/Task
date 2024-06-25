@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #f0f0f0;
+  overflow: hidden;
+  position: relative;
+}
+#image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+img {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  cursor: pointer;
+}
